@@ -20,8 +20,10 @@ while _sum < amount:
         _i += 1
     else:
         exch.append(subs[_i])
+"""
 else:
     print("cannot find currency for exchange.")
+"""
 
 if exch:
     print("Exchange results are -> ", ",".join(str(x) for x in exch))
